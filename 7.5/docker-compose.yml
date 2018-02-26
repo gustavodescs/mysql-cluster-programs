@@ -1,0 +1,7 @@
+
+version: '2'
+services:
+
+  mysql-cluster-programs:
+    image: gustavodescs/mysql-cluster-programs:7.5
+    build: .
